@@ -6,5 +6,5 @@ os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 from transformers import pipeline
 
 classifier = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
-result = classifier("fuck you")
+result = classifier("I love machine learning")
 print(result)
