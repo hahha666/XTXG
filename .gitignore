@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# AI / PyTorch 模型和数据
+*.pth
+*.pt
+*.onnx
+dataset/
+data/
+
+# 虚拟环境 (如果有在当前目录建)
+.env
+venv/
